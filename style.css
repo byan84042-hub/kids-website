@@ -1,0 +1,148 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  text-align: center;
+}
+
+/* الهيدر */
+header {
+  padding: 20px;
+  color: white;
+}
+
+/* صندوق الأسئلة */
+.quiz {
+  background: white;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* الأزرار */
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #4facfe;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00c6ff;
+  transform: scale(1.02);
+}
+
+/* كل الأقسام */
+section {
+  background: white;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* العناوين */
+section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* شبكة الصور */
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+/* الصور */
+.images img {
+  width: 85px;
+  height: 85px;
+  border-radius: 15px;
+  object-fit: cover;
+  transition: 0.3s;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.images img:hover {
+  transform: scale(1.2);
+}
+
+/* العناصر (ألوان + فواكه + رياضيات) */
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.item p {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* ⭐ النص داخل الرياضيات */
+.math .item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* الأرقام */
+.num {
+  background: #f1f1f1;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.num:hover {
+  background: #4facfe;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* الألعاب */
+.extra .box {
+  background: #f9f9f9;
+  margin: 10px auto;
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.extra .box:hover {
+  transform: scale(1.05);
+  background: #eef7ff;
+}
+
+/* الفوتر */
+footer {
+  padding: 15px;
+  color: white;
+}
